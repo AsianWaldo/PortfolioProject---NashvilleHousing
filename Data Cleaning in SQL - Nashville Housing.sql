@@ -119,10 +119,10 @@ from NashvilleHousing
 --Now let's update the Sold as vacant field into the condition above
 update NashvilleHousing
 set SoldAsVacant = case
-						when SoldAsVacant = 'Y' then 'Yes'
-						when SoldAsVacant = 'N' then 'No'
-						else SoldAsVacant
-					end
+			when SoldAsVacant = 'Y' then 'Yes'
+			when SoldAsVacant = 'N' then 'No'
+			else SoldAsVacant
+		   end
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
