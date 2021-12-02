@@ -17,9 +17,9 @@ from NashvilleHousing
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 --2. Populate Property Address
--- So basically if you check the data there are several data in Property Address that is null
--- After a rough check we could see that all the same ParcelID have the same Property Address
--- So we will populate see if the ParcelID have a property address, then we are going to repopulate it to identical ParcelID without property address
+-- So basically if you check the data, there are several data in Property Address that is null
+-- After a rough check, we could see that all the same ParcelID have the same Property Address
+-- So we will populate the data to see if the ParcelID have a property address, if it does we are going to repopulate it to the identical ParcelID
 select 
 	real.PropertyAddress,
 	real.ParcelID,
